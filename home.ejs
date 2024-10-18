@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+ <h1>Posts</h1>
+ <%for(let post of posts){%>
+<div>
+ <h3>@<%= post.username %></h3>
+ <h4><%= post.content %></h4>
+ <br>
+ <button><a href="http://localhost:8080/post/<%=post.id%>">See in detail</a></button>
+ <button><a href="http://localhost:8080/post/<%=post.id%>/edit">Edit</a></button>
+ <form method="post" action="/post/<%= post.id %>?_method=DELETE">
+   <br>
+    <button>Delete post</button>
+    <br>
+    <br>
+ </form>
+</div>
+ <%}%>
+ <br>
+ <br>
+ <button><a href="http://localhost:8080/post/new">add new post</a></button>
+</body>
+<script src="/app.js"></script>
+</html>
+
+    

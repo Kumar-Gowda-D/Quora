@@ -1,0 +1,19 @@
+*{
+    background-image: url("https://fps.cdnpk.net/images/home/subhome-ai.webp?w=649&h=649");
+    background-size: cover;
+}
+div{
+    margin: auto;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+input ,textarea ,button{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding-left: 10px;
+}

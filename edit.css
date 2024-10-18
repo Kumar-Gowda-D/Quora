@@ -1,0 +1,18 @@
+*{
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg");
+    background-size: cover;
+}
+div{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+textarea,button{
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 20px;
+}

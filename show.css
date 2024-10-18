@@ -1,0 +1,14 @@
+*{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerXSLyIQQLdskn41dy8ysxGgq7DmEXTt9Aw&s");
+    background-size: cover;
+}
+h1{
+    padding-left: 10px;
+}
+div{
+    font-style: italic;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
